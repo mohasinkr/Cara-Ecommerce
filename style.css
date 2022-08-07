@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 4px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+#cart-icon{
+    
+    height:15px;
+    width: 15px;
+}
+
+.primary-menu a{
+    margin-right:4px;
+    text-decoration: none;
+    color:rgb(64, 59, 59);
+    padding-right: 20px;
+}
+
+#hero-image{
+    max-width: 100%;
+    max-height:100%;
+}
+
+.primary-menu>a:hover{
+    color:#088178;
+}
