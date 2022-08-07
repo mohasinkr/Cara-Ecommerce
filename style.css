@@ -26,6 +26,7 @@ header{
 }
 
 .primary-menu a{
+    position: relative;
     margin-right:4px;
     text-decoration: none;
     color:rgb(64, 59, 59);
@@ -37,6 +38,36 @@ header{
     max-height:100%;
 }
 
-.primary-menu>a:hover{
+.primary-menu a:hover,
+.primary-menu a.active
+{
     color:#088178;
+    fill: #088178;
+}
+
+.primary-menu a.active::after{
+    content: "";
+    width: 35%;
+    height:2px;
+    position: absolute;
+    left:0;
+    bottom:-4px;
+    background: #088178;
+}
+
+.primary-menu a:not(.active):after{
+    content: "";
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    width: 35%;
+    height:2px;
+    position: absolute;
+    left:0;
+    bottom:-4px;
+    background: #088178;
+    transition: transform 0.3s ease;
+}
+
+.primary-menu a:not(.active):hover::after{
+    transform: scaleX(1);
 }
