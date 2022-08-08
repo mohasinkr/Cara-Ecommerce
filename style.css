@@ -85,6 +85,7 @@ header{
 
 .hero p:nth-child(1){
     color: rgb(32, 31, 31);
+    margin-bottom: 10px;
 }
 
 .hero p:nth-child(2){
@@ -100,7 +101,19 @@ header{
     font-weight: bold;
 }
 
+.hero p:nth-child(4){
+    font-size: 14px;
+    color: grey;
+}
+
+.hero-content{
+    position: absolute;
+    top:30%;
+    left: 5%;
+}
+
 .hero button{
+    margin-top:10px;
     width: 227px;
     height: 49px;
     border: none;
@@ -110,11 +123,7 @@ header{
     background-image: url("assets/button.png");
 }
 
-.hero-content{
-    position: absolute;
-    top:30%;
-    left: 5%;
-}
+
 
 .cards{
     margin-top:50px;
