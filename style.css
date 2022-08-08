@@ -84,12 +84,14 @@ header{
 }
 
 .hero p:nth-child(1){
+    font-size: 15px;
+    font-weight: bold;
     color: rgb(32, 31, 31);
     margin-bottom: 10px;
 }
 
 .hero p:nth-child(2){
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 5px;
     font-weight: bold;
     line-height: 20px;
@@ -97,22 +99,24 @@ header{
 
 .hero p:nth-child(3){
     color:var(--green);
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .hero p:nth-child(4){
-    font-size: 14px;
+    font-size: 15px;
     color: grey;
 }
 
 .hero-content{
     position: absolute;
     top:30%;
-    left: 5%;
+    left: 10%;
 }
 
 .hero button{
+    color: var(--green);
+    font-weight: bold;
     margin-top:10px;
     width: 227px;
     height: 49px;
