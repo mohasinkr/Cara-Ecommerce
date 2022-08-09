@@ -130,9 +130,11 @@ header{
 
 
 .cards{
-    margin-top:50px;
+    margin-top:40px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     column-gap: 50px;
     margin-bottom: 50px;
 }
@@ -143,4 +145,55 @@ header{
     border: 1px solid rgba(131, 130, 130, 0.471);
     padding-top: 30px;
     text-align: center;
+}
+
+.card1>span{
+    padding:3px;
+    background-color: #fddde4;
+    border-radius: 5px;
+}
+
+.card2>span{
+    padding:3px;
+    background-color: #cdebbc;
+    border-radius: 5px;
+}
+
+.card3>span{
+    padding:3px;
+    background-color: #d1e8f2;
+    border-radius: 5px;
+}
+
+.card4>span{
+    padding:3px;
+    background-color: #cdd4f8;
+    border-radius: 5px;
+}
+
+.card5>span{
+    display: inline;
+    padding:3px;
+    background-color: #f6dbf6;
+    border-radius: 5px;
+}
+
+.card6>span{
+    padding:3px;
+    background-color: #fff2e5;
+    border-radius: 5px;
+}
+
+#feature-heading{
+    text-align: center;
+}
+
+#feature-heading p{
+    color:grey;
+    font-size: 15px;
+}
+
+.items-grid{
+    display:grid;
+    grid-template-columns: repeat (3,auto);
 }
