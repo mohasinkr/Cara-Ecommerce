@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- EXTERNAL FILES -->
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Cara Ecommerce</title>
   </head>
+
   <body>
     <header>
       <div class="logo">
@@ -19,16 +30,7 @@
         <a href="">About</a>
         <a href="">Contact</a>
         <a href="">
-          <svg
-            id="cart-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-          >
-            <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-            <path
-              d="M112 112C112 50.14 162.1 0 224 0C285.9 0 336 50.14 336 112V160H400C426.5 160 448 181.5 448 208V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V208C0 181.5 21.49 160 48 160H112V112zM160 160H288V112C288 76.65 259.3 48 224 48C188.7 48 160 76.65 160 112V160zM136 256C149.3 256 160 245.3 160 232C160 218.7 149.3 208 136 208C122.7 208 112 218.7 112 232C112 245.3 122.7 256 136 256zM312 208C298.7 208 288 218.7 288 232C288 245.3 298.7 256 312 256C325.3 256 336 245.3 336 232C336 218.7 325.3 208 312 208z"
-            />
-          </svg>
+          <i class="fa-solid fa-bag-shopping"></i>
         </a>
       </nav>
     </header>
@@ -38,7 +40,7 @@
         <p>Trade-in-offer</p>
         <p>Super value deals</p>
         <p>On all products</p>
-        <p>Save more with coupons and upto 70% off!</p>
+        <p class="grey-text">Save more with coupons and upto 70% off!</p>
         <button>Shop Now</button>
       </div>
     </section>
@@ -73,10 +75,23 @@
     <section class="products">
       <div id="feature-heading">
         <h1>Featured Products</h1>
-        <p>Summer Collection New Modern Design</p>
+        <p class="grey-text">Summer Collection New Modern Design</p>
       </div>
       <div class="items-grid">
-        <div class="item1"></div>
+        <div class="item1">
+          <img class="product-image" src="assets/products/f1.jpg" alt="">
+          <p class="grey-text brand">adidas</p>
+          <p>Cartoon Astronaut T-Shirts</p>
+          <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+          <span class="pricing">$78
+            <i class="fa-solid fa-cart-shopping"></i>
+          </span>       
+        </div>
       </div>
     </section>
   </body>

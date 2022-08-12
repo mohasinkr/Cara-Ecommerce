@@ -4,6 +4,10 @@
     --green: #088178;
 }
 
+.grey-text{
+    color:grey;
+}
+
 *{
     padding:0;
     margin:0;
@@ -15,12 +19,13 @@ body{
 
 header{
     position: sticky;
+    z-index: 1;
     top:0;
     left:0;
-    padding: 4px 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 4px 10px 0;
     background-color: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
@@ -105,7 +110,6 @@ header{
 
 .hero p:nth-child(4){
     font-size: 15px;
-    color: grey;
 }
 
 .hero-content{
@@ -189,11 +193,35 @@ header{
 }
 
 #feature-heading p{
-    color:grey;
     font-size: 15px;
 }
 
 .items-grid{
     display:grid;
-    grid-template-columns: repeat (3,auto);
+    grid-template-columns: repeat (4,auto);
 }
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(131, 130, 130, 0.471);
+}
+
+
+.stars{
+    color:rgb(154, 154, 6);
+}
+
+.pricing{
+    color: var(--green);
+    font-weight: bold;
+}
+
+.product-image{
+    max-height:250px;
+    max-width:250px;
+    border-radius: 10px;
+}
+
